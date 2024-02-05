@@ -10,7 +10,6 @@ interface MovieListProps {
 
 const MovieList:React.FC<MovieListProps> = ({data, title}) => {
     if(isEmpty(data)) {
-        console.log("empty movie list")
         return null;
     }
 
